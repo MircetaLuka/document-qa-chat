@@ -1,0 +1,9 @@
+(18) Untergeordnete Bauteile sind:
+	a)	Dachkapfer, Fänge, Windfänge, offene Balkone, Markisen und dergleichen, Schutzdächer und an baulichen Anlagen angebrachte Werbeeinrichtungen; dies jedoch nur, wenn sie im Hinblick auf ihre Abmessungen im Verhältnis zur Fläche und zur Länge der betroffenen Fassaden bzw. Dächer untergeordnet sind;
+	b)	Freitreppen, Sonnenschutzlamellen und dergleichen, fassadengestaltende Bauteile, wie Gesimse, Lisenen, Rahmen und dergleichen, weiters Sonnenkollektoren und Photovoltaikanlagen, sofern sie in die Außenhaut von baulichen Anlagen integriert sind oder einen Parallelabstand von höchstens 30 cm zur Dach- bzw. Wandhaut aufweisen, sowie Liftüberfahrten; dies jedoch nur, wenn sie im Hinblick auf ihre Abmessungen im Verhältnis zur Fläche der betreffenden Fassaden bzw. Dächer untergeordnet sind;
+	c)	Vordächer, wenn sie im Hinblick auf ihre Abmessungen im Verhältnis zur Gesamtfläche der betreffenden Dächer untergeordnet sind. Als Gesamtfläche der betreffenden Dächer gelten jene Flächen, die im unmittelbaren baulichen Zusammenhang mit den jeweiligen Vordächern stehen sowie die Vordachflächen selbst.
+(30) Hocheffiziente alternative Systeme sind insbesondere:
+	a)	dezentrale Energieversorgungssysteme auf der Grundlage von Energie aus erneuerbaren Quellen;
+	b)	Kraft-Wärme-Kopplungsanlagen;
+	c)	Fern- oder Nahwärme-Systeme oder Fern- oder Nahkälte-Systeme, wenn diese überwiegend auf Energie aus erneuerbaren Quellen oder auf Kraft-Wärme-Kopplungsanlagen beruhen;
+	d)	Wärmepumpen.
