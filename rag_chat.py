@@ -7,6 +7,7 @@ from langchain_google_vertexai import ChatVertexAI
 
 llm = ChatVertexAI(model="gemini-pro")
 #import bs4
+from langchain.chains import LLMChain
 from langchain import hub
 from langchain_chroma import Chroma
 #from langchain_community.document_loaders import WebBaseLoader
@@ -16,40 +17,40 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
 from langchain_core.documents import Document
-
-# In this project we are goint to implement a QA App over Mardown data
-# We will use pandoc to convert txt files to Markdown and the proceed with processing the data.
-
-markdown_path = "./data.md"
-loader = UnstructuredMarkdownLoader(markdown_path)
-data = loader.load()
-readme_content = data[0].page_content
-
-docs = loader.load()
-
-embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
-text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
-splits = text_splitter.split_documents(docs)
-vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings)
-
-# Retrieve and generate using the relevant snippets of the blog.
-retriever = vectorstore.as_retriever()
-prompt = hub.pull("rlm/rag-prompt")
-
-
+from langchain.prompts import HumanMessagePromptTemplate 
+from langchain_core.prompts.prompt import PromptTemplate
 def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
+def rag_chat(question):
+    # In this project we are goint to implement a QA App over Mardown data
+    # We will use pandoc to convert txt files to Markdown and the proceed with processing the data.
+    markdown_path = "./data.md"
 
-rag_chain = (
-    {"context": retriever | format_docs, "question": RunnablePassthrough()}
-    | prompt
-    | llm
-    | StrOutputParser()
-)
+    # We are going to use the Markdown loader to load the file into a editable format.
+    loader = UnstructuredMarkdownLoader(markdown_path)
 
-print(rag_chain.invoke("Was sind untergeordnete Bauteile?"))
+    
+    docs = loader.load()
+
+    # We are going to use the Google AI embedding to embed the data into a Vector Space.
+    embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+    
+    # We will use the recursive Character Splitter to split the data into chunks of 1000 
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    splits = text_splitter.split_documents(docs)
+    
+    # We will use Chroma as a Vector store to store the chunks of data and embed them in there.
+    vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings)
+
+    # Retrieve and generate using the relevant snippets of the blog.
+    retriever = vectorstore.as_retriever()
+    #TODO Prompt fixen
+    prompt = PromptTemplate(input_variables=['context', 'question'], template="Vi ste asistent za zadatke odgovaranja na pitanja. Koristite sledeće delove dobijenog konteksta da odgovorite na pitanje. Ako ne znate odgovor, samo recite da ne znate. Koristite najviše tri rečenice i neka odgovor bude sažet. Sve odgovore koje generišete, generišite molim Vas na srpskom jeziku.\nquestion: {question} \ncontext: {context} \nAnswer:")
+
+    rag_chain = LLMChain(llm = llm, prompt = prompt)
 
 
-# cleanup
-vectorstore.delete_collection()
+    return rag_chain.run(context = retriever, question = question)
+
+

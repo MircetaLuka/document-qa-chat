@@ -1,9 +1,523 @@
-(18) Untergeordnete Bauteile sind:
-	a)	Dachkapfer, Fänge, Windfänge, offene Balkone, Markisen und dergleichen, Schutzdächer und an baulichen Anlagen angebrachte Werbeeinrichtungen; dies jedoch nur, wenn sie im Hinblick auf ihre Abmessungen im Verhältnis zur Fläche und zur Länge der betroffenen Fassaden bzw. Dächer untergeordnet sind;
-	b)	Freitreppen, Sonnenschutzlamellen und dergleichen, fassadengestaltende Bauteile, wie Gesimse, Lisenen, Rahmen und dergleichen, weiters Sonnenkollektoren und Photovoltaikanlagen, sofern sie in die Außenhaut von baulichen Anlagen integriert sind oder einen Parallelabstand von höchstens 30 cm zur Dach- bzw. Wandhaut aufweisen, sowie Liftüberfahrten; dies jedoch nur, wenn sie im Hinblick auf ihre Abmessungen im Verhältnis zur Fläche der betreffenden Fassaden bzw. Dächer untergeordnet sind;
-	c)	Vordächer, wenn sie im Hinblick auf ihre Abmessungen im Verhältnis zur Gesamtfläche der betreffenden Dächer untergeordnet sind. Als Gesamtfläche der betreffenden Dächer gelten jene Flächen, die im unmittelbaren baulichen Zusammenhang mit den jeweiligen Vordächern stehen sowie die Vordachflächen selbst.
-(30) Hocheffiziente alternative Systeme sind insbesondere:
-	a)	dezentrale Energieversorgungssysteme auf der Grundlage von Energie aus erneuerbaren Quellen;
-	b)	Kraft-Wärme-Kopplungsanlagen;
-	c)	Fern- oder Nahwärme-Systeme oder Fern- oder Nahkälte-Systeme, wenn diese überwiegend auf Energie aus erneuerbaren Quellen oder auf Kraft-Wärme-Kopplungsanlagen beruhen;
-	d)	Wärmepumpen.
+I OSNOVNE ODREDBE
+1. Predmet uređivanja
+
+Član 1
+
+Ovim zakonom uređuje se: uslovi i način uređenja prostora, uređivanje i korišćenje građevinskog zemljišta i izgradnja objekata; vršenje nadzora nad primenom odredaba ovog zakona i inspekcijski nadzor; druga pitanja od značaja za uređenje prostora, uređivanje i korišćenje građevinskog zemljišta i za izgradnju objekata.
+
+Odredbe ovog zakona ne odnose se na planiranje i uređenje prostora, odnosno izgradnju i uklanjanje objekata koji se u smislu zakona kojim se uređuje odbrana smatraju vojnim kompleksima, odnosno vojnim objektima, kao i na izgradnju objekata koji se u smislu zakona kojim se uređuje rudarstvo smatraju rudarskim objektima, postrojenjima i uređajima.
+
+2. Pojmovi
+
+Član 2
+
+Pojedini izrazi upotrebljeni u ovom zakonu imaju sledeće značenje:
+
+1) adaptacija jeste izvođenje građevinskih i drugih radova na postojećem objektu, kojima se: vrši promena organizacije prostora u objektu; vrši zamena uređaja, postrojenja, opreme i instalacija istog kapaciteta, a kojima se ne utiče na stabilnost i sigurnost objekta, ne menjaju konstruktivni elementi, ne menja spoljni izgled i ne utiče na bezbednost susednih objekata, saobraćaja, zaštite od požara i životne sredine;
+
+2) brownfield lokacije jesu lokacije industrijskih i komercijalnih sadržaja, koje se ne koriste u dužem vremenskom periodu, a imaju potencijal za urbanu obnovu;
+
+3) bruto razvijena građevinska površina jeste zbir površina svih nadzemnih etaža objekta, merenih u nivou podova svih delova objekta - spoljne mere obodnih zidova (sa oblogama, parapetima i ogradama);
+
+4) vetroelektrana je elektroenergetski objekat za proizvodnju električne energije iz energije vetra, koji se obavezno sastoji od jednog ili više vetrogeneratora povezanih mrežom električnih, odnosno telekomunikacionih kablova i objekata u funkciji vetroelektrane;
+
+5) vučnica je žičara koja užetom vuče lica ili materijal sa odgovarajućom opremom, koristeći vučne uređaje po vučnoj trasi;
+
+6) Glavni republički urbanista je lice odgovorno za sprovođenje stručne kontrole dokumenata prostornog i urbanističkog planiranja iz nadležnosti Republike Srbije, kao i za kontrolu usklađenosti planskih dokumenata, odnosno glavni urbanista autonomne pokrajine je lice odgovorno za sprovođenje stručne kontrole dokumenata prostornog i urbanističkog planiranja iz nadležnosti autonomne pokrajine, kao i za kontrolu usklađenosti planskih dokumenata;
+
+7) grad jeste naselje koje je kao grad utvrđeno zakonom;
+
+8) gradilište jeste zemljište ili objekat, posebno obeleženo, na kome se gradi, rekonstruiše ili uklanja objekat, odnosno izvode radovi na održavanju objekta;
+
+9) građevinska linija jeste linija na, iznad i ispod površine zemlje i vode do koje je dozvoljeno građenje osnovnog gabarita objekta;
+
+10) građevinsko područje jeste uređeni i izgrađeni deo naseljenog mesta, kao i neizgrađeni deo područja određen planskim dokumentom za zaštitu, uređenje ili izgradnju objekta;
+
+11) građevinska parcela jeste deo građevinskog zemljišta, sa pristupom javnoj saobraćajnoj površini, koja je izgrađena ili planom predviđena za izgradnju koja se definiše koordinatama prelomnih tačaka u državnoj projekciji;
+
+12) građevinski kompleks predstavlja, celinu koja se sastoji od više međusobno povezanih samostalnih funkcionalnih celina, odnosno katastarskih parcela, koje mogu imati različitu namenu;
+
+13) građenje jeste izvođenje građevinskih i građevinsko-zanatskih radova, ugradnja građevinskih proizvoda, postrojenja i opreme;
+
+14) Direktiva Inspire je dokument kojim se postavljaju osnovna pravila usmerena ka uspostavljanju Infrastrukture prostornih informacija u Evropskoj uniji, a u Republici Srbiji se sprovodi kroz Nacionalnu infrastrukturu geoprostornih podataka;
+
+15) dogradnja jeste izvođenje građevinskih i drugih radova kojima se izgrađuje novi prostor van postojećeg gabarita objekta, kao i nadziđivanje objekta, i sa njim čini građevinsku, funkcionalnu ili tehničku celinu;
+
+16) ekonomski objekti jesu objekti za gajenje životinja (staje za gajenje konja, štale za gajenje goveda, objekti za gajenje živine, koza, ovaca i svinja, kao i objekti za gajenje golubova, kunića, ukrasne živine i ptica); prateći objekti za gajenje domaćih životinja (ispusti za stoku, betonske piste za odlaganje čvrstog stajnjaka, objekti za skladištenje osoke); objekti za skladištenje stočne hrane (senici, magacini za skladištenje koncentrovane stočne hrane, betonirane silo jame i silo trenčevi), objekti za skladištenje poljoprivrednih proizvoda (ambari, koševi), ribnjaci, krečane, ćumurane i drugi slični objekti na poljoprivrednom gazdinstvu (objekti za mašine i vozila, pušnice, sušionice i sl.);
+
+17) elektroenergetski objekti su objekti za proizvodnju, transformaciju, distribuciju i prenos električne energije;
+
+18) elektromobilnost (E-mobilnost) jeste poseban vid ekološkog saobraćaja, korišćenjem električnih vozila koji za pogonsku energiju koriste pretežno električnu energiju;
+
+19) E-prostor je elektronski sistem razmene digitalnih podataka između imalaca javnih ovlašćenja, u postupku pripreme, koordinacije i praćenja izrade planskih dokumenata. U okviru sistema E-prostor odvijaju se i druge aktivnosti u pogledu učešća javnosti, stručne kontrole dokumenata prostornog i urbanističkog planiranja, kontrole usklađenosti planskih dokumenata, kao i dostupnosti, objavljivanja i čuvanja dokumenata prostornog i urbanističkog planiranja;
+
+20) ESPON jeste evropska mreža institucija koje se bave prikupljanjem informacija i pokazatelja za prostorno planiranje;
+
+21) zemljište privedeno urbanističkoj nameni jeste zemljište na kome je u skladu sa zakonom izgrađen objekat i koji je upisan u evidenciju katastra nepokretnosti;
+
+22) zemljište izvan građevinskog područja na kome je moguća izgradnja, jeste zemljište određeno planskim dokumentom kao poljoprivredno, šumsko, vodno i ostalo zemljište, na kome je u skladu sa ovim zakonom i drugim posebnim zakonima moguća izgradnja objekata, odnosno parterno uređenje zemljišta u skladu sa posebnim propisima;
+
+23) zgrada jeste objekat sa krovom i spoljnim zidovima, izgrađena kao samostalna upotrebna celina koja pruža zaštitu od vremenskih i spoljnih uticaja, a namenjena je za stanovanje, obavljanje neke delatnosti ili za smeštaj i čuvanje životinja, robe, opreme za različite proizvodne i uslužne delatnosti i dr. Zgradama se smatraju i objekti koji imaju krov, ali nemaju (sve) zidove (npr. nadstrešnica), kao i objekti koji su pretežno ili potpuno smešteni ispod površine zemlje (skloništa, podzemne garaže i sl.);
+
+24) zdravstveni kompleks jeste zdravstvena ustanova, osnovana u skladu sa zakonom kojim se uređuje oblast zdravstvene zaštite, koji predstavlja prostorno-funkcionalnu celinu, koja se sastoji od više međusobno povezanih samostalnih funkcionalnih celina, odnosno katastarskih parcela, koje mogu imati različitu namenu i na kojima su izgrađeni ili je planirana izgradnja objekata u funkciji zdravstvene zaštite stanovništva, sa pripadajućim objektima (univerzitetsko-klinički centar, kliničko-bolnički centar, kompleks opšte bolnice, poliklinika, dom zdravlja i dr.);
+
+25) zelena gradnja jeste način planiranja, projektovanja, izvođenja radova, korišćenja i održavanja objekata, kojima se smanjuje emisija gasova sa efektom staklene bašte, koriste ekološki sertifikovani građevinski materijali i oprema, efikasno koriste svi resursi, smanjuje produkcija i povećava korišćenje otpada od građenja i rušenja po modelu cirkularnosti, koriste obnovljivi izvori energije, što dovodi do poboljšanja kvaliteta života korisnika, zaštite životne sredine i unapređuje održivost;
+
+26) indeks zauzetosti parcele jeste odnos gabarita horizontalne projekcije izgrađenog ili planiranog objekta i ukupne površine građevinske parcele, izražen u procentima;
+
+27) indeks izgrađenosti parcele jeste odnos (količnik) bruto razvijene građevinske površine izgrađenog ili planiranog objekta i ukupne površine građevinske parcele;
+
+28) investitor jeste lice za čije potrebe se gradi objekat i na čije ime glasi građevinska dozvola;
+
+29) izgradnja objekta jeste skup radnji koji obuhvata: prethodne radove, izradu i kontrolu tehničke dokumentacije, pripremne radove za građenje, građenje objekta i stručni nadzor u toku građenja objekta;
+
+30) inženjerski objekti su svi ostali objekti koji nisu zgrade: železnice, putevi, mostovi, manevarske površine, cevovodi, komunikacioni i električni vodovi i dr.;
+
+31) investiciono održavanje je izvođenje građevinsko-zanatskih, odnosno drugih radova zavisno od vrste objekta u cilju poboljšanja uslova korišćenja objekta u toku eksploatacije;
+
+32) imaoci javnih ovlašćenja su državni organi, organi autonomne pokrajine i lokalne samouprave, posebne organizacije i druga lica koja vrše javna ovlašćenja u skladu sa zakonom, odnosno druga pravna lica koja pružaju usluge od javnog značaja većem broju korisnika (distribucija gasa, optička mreža i sl.);
+
+33) klasa u smislu ovog zakona predstavlja grupu građevinskih objekata, odnosno radova, svrstanih prema zajedničkim karakteristikama u pogledu strukturne i tehnološke složenosti, uticaja na životnu sredinu i namene, odnosno rizika koji prati njihovo izvođenje odnosno korišćenje;
+
+34) klizište je vid geodinamičkog procesa, u kome se zemljište pod uticajem gravitacije i drugih geoloških, hidroloških i seizmoloških pojava odvaja od stabilne podloge i klizi po kliznoj površini;
+
+35) komunalna infrastruktura jesu svi objekti infrastrukture za koje rešenje za izvođenje radova, odnosno građevinsku dozvolu izdaje jedinica lokalne samouprave, kao i objekti javne namene u javnoj svojini jedinice lokalne samouprave, autonomne pokrajine i Republike Srbije, koji su aktom jedinice lokalne samouprave, autonomne pokrajine i Republike Srbije određeni kao objekti od posebnog značaja;
+
+36) konzervatorski nadzor je stručni nadzor koji sprovodi odgovorni projektant - konzervator arhitektonske ili inženjerske građevinske struke sa odgovarajućom licencom Inženjerske komore Srbije nad radovima na sprovođenju mera tehničke zaštite na nepokretnim kulturnim dobrima, dobrima pod prethodnom zaštitom i njihovoj zaštićenoj okolini;
+
+37) linijski infrastrukturni objekat-linijska infrastruktura jeste javni put, javna železnička infrastruktura (mreža pruga kojom upravlja upravljač infrastrukture, koloseci u službenim mestima i prateći objekti u funkciji železničkog saobraćaja), metro, aerodromska infrastruktura, kao i objekti u njihovoj funkciji, vodna saobraćajna infrastruktura u lučkom području (operativne obale za pristajanje plovila i sl.), kao i plovni putevi i hidrotehnički objekti koji se grade na njima (plovni kanali, naperi, paralelne građevine sa traverzama, pregrade, pragovi, kaskade, ševroni, brodske prevodnice, nasipi sa pripadajućim objektima (ustave, fiksne crpne stanice), kaskadne i reverzibilne hidroelektrane i obaloutvrde)), prenosna i distributivna mreža (elektroenergetski vod i dr.), naftovod, produktovod, gasovod, derivacioni cevovod, linijska infrastruktura žičara kao podsistema javnog transporta lica ili materijala, infrastruktura kablovskih i bežičnih elektronskih komunikacija, u skladu sa propisima kojima se uređuje izgradnja objekata elektronskih komunikacija, linijska komunalna infrastruktura (vodovodna i kanalizaciona infrastruktura i sl.), koji može biti nadzemni ili podzemni, čija izgradnja je predviđena odgovarajućim planskim dokumentom i/ili podzakonskim aktima kojima se uređuje izgradnja objekata elektronskih komunikacija, kao i objekti u njihovoj funkciji;
+
+38) mesto za punjenje električnih vozila jeste mesto na kome je moguće puniti jedno ili više električnih vozila ili zameniti bateriju na jednom ili više električnih vozila;
+
+39) namena zemljišta jeste način korišćenja zemljišta određen planskim dokumentom;
+
+40) naseljeno mesto jeste izgrađeni, funkcionalno objedinjeni prostor na kome su obezbeđeni uslovi za život i rad ljudi i zadovoljavanje zajedničkih potreba stanovnika;
+
+41) naučno-istraživački kampus jeste prostorno funkcionalna celina - kompleks koja se sastoji od više međusobno povezanih samostalnih funkcionalnih celina, ili katastarskih parcela, koje mogu imati različitu namenu i na kojima su izgrađeni, ili je planirana izgradnja objekata u naučno-istraživačkoj, obrazovnoj i medicinskoj funkciji, kao i privrednoj delatnosti u oblasti prirodnih, društveno-humanističkih, medicinskih, informatičkih, tehničko-tehnoloških i dr. nauka;
+
+42) nomenklatura statističkih teritorijalnih jedinica jeste skup pojmova, naziva i simbola koja opisuje grupe teritorijalnih jedinica sa nivoima grupisanja i koja sadrži kriterijume po kojima je izvršeno grupisanje, a koju usvaja Vlada, na predlog republičkog organa nadležnog za poslove statistike;
+
+43) objekat jeste građevina spojena sa tlom, izvedena od svrsishodno povezanih građevinskih proizvoda, odnosno građevinskih radova, koja predstavlja fizičku, funkcionalnu, tehničko-tehnološku ili biotehničku celinu (zgrade i inženjerski objekti i sl.), koji može biti podzemni ili nadzemni;
+
+44) objekti javne namene su objekti namenjeni za javno korišćenje i mogu biti objekti javne namene u javnoj svojini po osnovu posebnih zakona (linijski infrastrukturni objekti, objekti za potrebe državnih organa, organa teritorijalne autonomije i lokalne samouprave itd.) i ostali objekti javne namene koji mogu biti u svim oblicima svojine (bolnice, domovi zdravlja, domovi za stare, objekti obrazovanja, otvoreni i zatvoreni sportski i rekreativni objekti, trgovinski centri, objekti kulture, saobraćajni terminali, pošte i drugi objekti);
+
+45) obuhvat plana jeste prostorno ili administrativno određena celina za koju je predviđena izrada nekog prostornog ili urbanističkog plana u skladu sa zakonom;
+
+46) oprema su pojedinačni uređaji, mašine, procesne instalacije, oprema za skladištenje električne energije i drugi proizvodi od kojih se sastoji postrojenje, koji mogu biti i samostalno ugrađeni u objekat radi tehnološkog ili drugog procesa kojem je objekat namenjen;
+
+47) osnovni zahtevi za objekte su zahtevi koje objekat treba da zadovolji tokom ekonomski prihvatljivog veka upotrebe, utvrđeni posebnim propisima;
+
+48) površina javne namene jeste prostor određen planskim dokumentom za uređenje ili izgradnju objekata javne namene ili javnih površina za koje je predviđeno utvrđivanje javnog interesa, u skladu sa posebnim zakonom (ulice, trgovi, parkovi i dr.);
+
+49) podzemni delovi infrastrukture i sistema za navodnjavanje su posebna vrsta podzemnih infrastrukturnih objekata koji se grade u poljoprivredne svrhe, a čijom se izgradnjom na poljoprivrednom i šumskom zemljištu, kao i na građevinskom zemljištu koje se koristi u poljoprivredne svrhe, ne narušava korišćenje zemljišta na površini terena postojeće namene i izdavanje lokacijskih uslova za izgradnju ovih objekata ne može se uslovljavati postojanjem, odnosno dovoljnom razvijenošću planske dokumentacije za područje na kome se nalaze parcele na kojima se planira izgradnja;
+
+50) pomoćni objekat jeste objekat koji je u funkciji glavnog objekta, a gradi se na istoj parceli na kojoj je sagrađen ili može biti sagrađen glavni stambeni, poslovni ili objekat javne namene (garaže, ostave, septičke jame, bunari, cisterne za vodu, vizitorski centri, info-pultovi i sl.);
+
+51) postojeći objekat jeste objekat izgrađen u skladu sa zakonom, koji je evidentiran u evidenciji katastra nepokretnosti, odnosno katastra infrastrukture;
+
+52) pretežna namena zemljišta jeste način korišćenja zemljišta za više različitih namena, od kojih je jedna preovlađujuća;
+
+53) privredno-industrijski kompleks predstavlja celinu koja se sastoji od više međusobno povezanih samostalnih funkcionalnih celina, odnosno katastarskih parcela, koje mogu imati različitu namenu u funkciji proizvodnih, neproizvodnih ili drugih privrednih delatnosti, odnosno proizvodnje energije. Nadležnost za izdavanje akata za gradnju u privredno-industrijskom kompleksu utvrđuje se pojedinačno za svaki objekat u okviru kompleksa;
+
+54) pripremni radovi jesu radovi koji prethode građenju objekta i odnose se naročito na: rušenje postojećih objekata na parceli, izmeštanje postojeće infrastrukture na parceli, raščišćavanje terena na parceli, odvoženje upotrebljenog građevinskog materijala, odnosno građevinskog otpada na deponiju, obezbeđenje prostora za dopremu i smeštaj građevinskih proizvoda i opreme, građenje i postavljanje objekata, instalacija i opreme privremenog karaktera za potrebe izvođenja radova (postavljanje gradilišne ograde, kontejnera i sl.), zemljani radovi, radovi kojima se obezbeđuje sigurnost susednih objekata, odnosno sigurnost i stabilnost terena (šipovi, dijafragme, potporni zidovi, naglavne grede, posteljica i sl.), obezbeđivanje nesmetanog odvijanja saobraćaja i korišćenje okolnog prostora;
+
+55) projekat za izgradnju objekata od značaja za Republiku Srbiju jeste izgradnja objekata sa pratećom infrastrukturom u njihovoj funkciji, koje na predlog ministarstva nadležnog za poslove građevinarstva utvrđuje Vlada;
+
+56) projekat za izgradnju objekata od posebnog značaja za Republiku Srbiju jeste skup radnji koji obuhvata planiranje, pribavljanje zemljišta i rešavanje imovinsko-pravnih odnosa, finansiranje, izradu i kontrolu planske i tehničke dokumentacije, izbor i dodelu ugovora za projektovanje, nadzor, upravljanje projektom ili delom projekta, izvođenje radova koji obuhvataju izgradnju, rekonstrukciju, rehabilitaciju, održavanje, obnovu, modernizaciju i druge radove, pribavljanje potrebnih saglasnosti, uslova i dozvola, kao i tehnički pregled objekta, sa pratećom infrastrukturom u njihovoj funkciji, koje na predlog ministarstva nadležnog za poslove građevinarstva utvrđuje Vlada;
+
+57) profesionalna kvalifikacija jeste kvalifikacija koja shodno posebnim propisima obuhvata formalno obrazovanje i dodatno stručno osposobljavanje i usavršavanje koje se obavlja tokom ili nakon završetka formalnog obrazovanja;
+
+58) profesionalni naziv jeste naziv koji svom nosiocu daje pravo na obavljanje stručnih poslova utvrđenih ovim zakonom i propisima donetim na osnovu ovog zakona, čije obavljanje, odnosno način obavljanja je uslovljeno posedovanjem određenih profesionalnih kvalifikacija;
+
+59) punjač za električna vozila jeste uređaj koji može biti postavljen na zemljištu ili u objektu koji se koristi za javnu ili privatnu namenu;
+
+60) regulaciona linija jeste linija koja razdvaja površinu određene javne namene od površina predviđenih za druge javne i ostale namene;
+
+61) rekonstrukcija jeste izvođenje građevinskih i drugih radova na postojećem objektu u gabaritu i volumenu objekta kojima se utiče na ispunjavanje osnovnih zahteva za objekat, menja tehnološki proces; menja spoljni izgled objekta ili povećava broj funkcionalnih jedinica, vrši zamena uređaja, postrojenja, opreme i instalacija sa povećanjem kapaciteta;
+
+62) rekonstrukcija linijskog infrastrukturnog objekta jeste izvođenje građevinskih i drugih radova u zaštitnom pojasu sa pripadajućim objektima, u skladu sa posebnim zakonom, kojima se može promeniti gabarit, volumen, položaj ili oprema postojećeg objekta, kao i izvođenje radova koji obuhvataju radove velikog obima, zamene elemenata na postojećim linijskim objektima, kojima se ne menja njeno celokupno funkcionisanje, uključujući i izgradnju raskrsnica sa kružnim tokom saobraćaja, a u cilju održavanja i unapređenja funkcionalnih i konstruktivnih karakteristika linijskog infrastrukturnog objekta u celini ili njegovih pojedinih elemenata ili objekata;
+
+63) restauratorski, konzervatorski i radovi na revitalizaciji kulturnih dobara su radovi koji se izvode na nepokretnim kulturnim dobrima i njihovoj zaštićenoj okolini, u skladu sa posebnim i ovim zakonom;
+
+64) sanacija jeste izvođenje građevinskih i drugih radova na postojećem objektu kojima se vrši popravka uređaja, postrojenja i opreme, odnosno zamena konstruktivnih elemenata objekta, kojima se ne menja spoljni izgled, ne utiče na bezbednost susednih objekata, saobraćaja i životne sredine i ne utiče na zaštitu prirodnog i nepokretnog kulturnog dobra, odnosno njegove zaštićene okoline, osim restauratorskih, konzervatorskih i radova na revitalizaciji;
+
+65) sanacija klizišta obuhvata sve radove kojima se vrši saniranje klizišta nastalih na građevinskom, šumskom, poljoprivrednom, putnom ili drugoj vrsti zemljišta. Ovi radovi obuhvataju raščišćavanje i otklanjanje nanosa nastalih kao posledica klizanja tla, potrebnih inženjerskogeoloških - geotehničkih, projektovanje, obezbeđenje potrebne tehničke dokumentacije, potrebnih građevinskih uslova i izvođenje građevinskih radova potrebnih za sanaciju i zaštitu od pojave novog klizišta;
+
+66) seveso postrojenje i seveso kompleks su postrojenje i kompleks koji mogu imati uticaj na životnu sredinu i određuju se u skladu sa propisima kojima se uređuje životna sredina;
+
+67) selo jeste naselje čije se stanovništvo pretežno bavi poljoprivredom, a koje nije sedište opštine;
+
+68) separat o tehničkim uslovima izgradnje (u daljem tekstu: separat) jeste dokument koji donosi imalac javnih ovlašćenja u okviru svoje nadležnosti kad planski dokument ne sadrži uslove, odnosno podatke za izradu tehničke dokumentacije, koji sadrži odgovarajuće uslove i podatke za izradu tehničke dokumentacije, a naročito kapacitete i mesto priključenja na komunalnu i drugu infrastrukturu prema klasama objekata i delovima područja za koje se donosi;
+
+69) sertifikat o energetskim svojstvima zgrada je dokument koji prikazuje energetska svojstva zgrade, ima propisani sadržaj, izgled, uslove i način izdavanja i izdat je kroz Centralni registar energetskih pasoša (CREP);
+
+70) sertifikat zelene gradnje je potvrda izdata od strane međunarodnog sistema za sertifikaciju zelenih zgrada, kojim se verifikuje da je objekat ispunio zadate kriterijume i služi za ocenjivanje kvaliteta i stepena ispunjenosti kriterijuma zelene gradnje;
+
+71) skijaška staza jeste uređena i obeležena površina javnog skijališta kao uređene javne površine koja se određuje na osnovu zakona kojim se uređuju javna skijališta. Za skijašku stazu ne određuje se građevinsko zemljište (može biti na svim vrstama zemljišta: građevinskom, poljoprivrednom i šumskom), već se za uređenje i opremanje skijaške staze (opremanje instalacijama javne rasvete i sistemima veštačkog osnežavanja) primenjuju pravila i propisi za parterno uređenje zemljišta, uz obaveznu antierozionu zaštitu i može biti u svim oblicima svojine;
+
+72) solarni park jeste prostorna celina - kompleks koja se sastoji od jedne ili više katastarskih parcela, odnosno objekata, na kojima su postavljeni solarni paneli na zemljištu ili na objektima, u skladu sa propisima na osnovu kojih je izdata energetska dozvola, sa pratećim objektima i infrastrukturom u njihovoj funkciji. Postavljanje solarnih panela se vrši bez promene namene zemljišta, osim u slučajevima kada je to propisano posebnim propisima;
+
+73) specifične vučne instalacije su pokretna traka, zip-lajn i bob na šinama ili druga srodna oprema, koja se koristi za zimske i/ili letnje aktivnosti i prevozi putnike u stojećem položaju ili užetom, kao i za prenos materijala;
+
+74) stambeni blok jeste zaokružena prostorna celina u građevinskom području naseljenog mesta, pravilnog geometrijskog oblika sa pretežnom stambenom namenom (po pravilu višeporodično stanovanje), oivičen je javnim saobraćajnim površinama, a unutar bloka se formiraju interne saobraćajnice, kolsko-pešačke staze, slobodne i zelene površine u javnom korišćenju. Prema načinu građenja stambeni blokovi mogu biti ivično i slobodno građeni, odnosno otvoreni, poluotvoreni i zatvoreni. Otvoreni stambeni blok se sastoji od slobodnostojećih objekata višeporodičnog stanovanja na zemljištu koje je u javnom korišćenju. Poluotvoreni stambeni blok čine objekti izgrađeni u prekinutom nizu. Zatvoreni stambeni blok čine objekti izgrađeni u neprekinutom nizu sa svih strana bloka. Kondominijum jeste posebna vrsta i oblik organizovanja u zatvorenom stambenom bloku, sa zajedničkim sadržajima u objektima i na građevinskom zemljištu (park, igralište za decu i dr.), koji su u zajedničkoj svojini svih vlasnika posebnih delova u objektima izgrađenim u tom kompleksu. Pravo na upis zajedničke svojine na građevinskom zemljištu oko objekta stiče se po izgradnji svih objekata u kompleksu, odnosno po pribavljanju upotrebnih dozvola za sve objekte u kompleksu, odnosno za sve objekte u kondominijumu;
+
+75) stambeni kompleks jeste prostorna celina koja se sastoji od više povezanih samostalnih funkcionalnih celina, odnosno katastarskih parcela, koje imaju pretežnu stambenu namenu (porodično ili višeporodično stanovanje), i u okviru koga se formiraju zelene i slobodne površine, na zemljištu ostale namene. Studentski kompleks jeste prostorno funkcionalna celina koja se sastoji od jedne ili više katastarskih parcela, sa jednim ili više objekata u kojima se pružaju usluge stambenog smeštaja, ishrane i odmora budžetskih i samofinansirajućih studenata, a gde se nalaze prostori i prostorije za učenje, kulturno-zabavne i rekreativne aktivnosti, kao i prateće prostorije i sadržaji;
+
+76) standardi pristupačnosti jesu obavezne tehničke mere, standardi i uslovi projektovanja, planiranja i izgradnje kojima se osigurava nesmetano kretanje i pristup osobama sa invaliditetom, deci i starim osobama;
+
+77) strateški energetski objekti su objekti koji su određeni kao strateški saglasno propisima kojima je uređena oblast energetike;
+
+78) Studija zaštite nepokretnih kulturnih dobara za potrebe izrade planskih dokumenata, izrađuje se za zaštićene prostorno kulturno istorijske celine i druge prostorne celine za koje je utvrđen status nepokretnog kulturnog dobra;
+
+79) tekuće (redovno) održavanje objekta jeste izvođenje radova koji se preduzimaju radi sprečavanja oštećenja koja nastaju upotrebom objekta ili radi otklanjanja tih oštećenja, a sastoje se od pregleda, popravki i preduzimanja preventivnih i zaštitnih mera, odnosno svi radovi kojima se obezbeđuje održavanje objekta na zadovoljavajućem nivou upotrebljivosti, kao što su krečenje, farbanje, zamena obloga, zamena sanitarija, radijatora, zamena unutrašnje i spoljašnje stolarije i bravarije, zamena unutrašnjih instalacija i opreme bez povećanja kapaciteta i drugi slični radovi, ako se njima ne menja spoljni izgled zgrade i ako nemaju uticaj na zajedničke delove zgrade i njihovo korišćenje, kao i radovi na redovnom održavanju linijskih infrastrukturnih objekata koji se sprovode u cilju održavanja i očuvanja funkcionalne ispravnosti tog objekta;
+
+80) tehnička greška u planskim dokumentima jeste greška koja se uoči u toku sprovođenja usvojenog planskog dokumenta u tekstualnom ili grafičkom delu planskog dokumenta, a odnosi se na greške u nazivima, brojevima, grafičkim simbolima (tačkama, linijama i površinama), kao i druge očigledne netačnosti i nelogičnosti koje se javljaju u tekstualnom i grafičkom delu planskog dokumenta (objavljenom tekstu i overenim grafičkim prikazima);
+
+81) tehnička dokumentacija jeste skup projekata koji se izrađuju radi: utvrđivanja koncepta objekta, razrade uslova, načina izgradnje objekta i za potrebe održavanja objekta;
+
+82) trasa koridora linijskog infrastrukturnog objekta jesu katastarske parcele građevinskog zemljišta navedene u rešenju o građevinskoj dozvoli za izgradnju koridora;
+
+83) tuneli (putni, železnički ili za posebnu namenu) su posebna vrsta podzemnih infrastrukturnih objekata, čijom izgradnjom se ne narušava korišćenje zemljišta na površini terena postojeće namene, uz eventualna tehnička ograničenja koje definiše planski dokument;
+
+84) uklanjanje objekta ili njegovog dela jeste izvođenje radova na rušenju objekta ili dela objekta;
+
+85) upravljač projekta ili dela projekta je privredno društvo/pravno lice koje može da angažuje investitor i koje vrši savetodavne i konsultantske usluge u svim ili pojedinim fazama planiranja i izgradnje, upravlja projektovanjem i izvođenjem svih ili pojedinih radova, vrši kontrolu dinamike napretka radova za koje je angažovan, organizuje sastanke sa izvođačima i stručnim nadzorom, o čemu izveštava investitora i predlaže investitoru sprovođenje eventualnih korektivnih aktivnosti;
+
+86) urbana obnova jeste skup planskih, graditeljskih i drugih mera kojima se obnavlja, uređuje ili rekonstruiše izgrađeni deo grada ili gradskog naselja;
+
+87) uslovi za projektovanje, odnosno priključenje jesu uslovi koje izdaju imaoci javnih ovlašćenja u objedinjenoj proceduri u postupku izdavanja lokacijskih uslova na zahtev nadležnog organa, u skladu sa planskim dokumentom, a koji se ne izdaju u formi upravnog akta, već se njima isključivo definišu precizni uslovi pod kojim se objekat čija je izgradnja predviđena planskim dokumentom može realizovati i predstavljaju sastavni deo lokacijskih uslova;
+
+88) finansijer jeste lice koje po osnovu zaključenog i overenog ugovora sa investitorom finansira, odnosno sufinansira izgradnju, dogradnju, rekonstrukciju, adaptaciju, sanaciju ili izvođenje drugih građevinskih odnosno investicionih radova predviđenih ovim zakonom i na osnovu tog ugovora stiče određena prava i obaveze koje su ovim zakonom propisane za investitora u skladu sa tim ugovorom, osim sticanja prava svojine na objektu koji je predmet izgradnje;
+
+89) hijerarhijski red planskog dokumenta jeste nadležnost za izradu i donošenje planskih dokumenata: izrada i donošenje planskih dokumenata višeg hijerarhijskog reda je u nadležnosti Republike Srbije; izrada i donošenje planskih dokumenata nižeg hijerarhijskog reda je u nadležnosti autonomne pokrajine, grada Beograda, odnosno jedinice lokalne samouprave;
+
+90) Centralni registar energetskih pasoša (CREP) je informacioni sistem preko koga se vrši izdavanje sertifikata o energetskim svojstvima zgrada i u kojem se vode baze podataka o ovlašćenim organizacijama koje ispunjavaju propisane uslove za izdavanje sertifikata, odgovornim inženjerima za energetsku efikasnost zgrada koji su zaposleni u tim organizacijama i izdatim sertifikatima o energetskim svojstvima zgrada.
+
+Svi izrazi u ovom zakonu upotrebljeni u muškom rodu podrazumevaju se i u ženskom rodu i obrnuto.
+
+3. Načela za uređenje i korišćenje prostora i osnovni zahtevi za objekat
+
+Član 3
+
+Planiranje, uređenje i korišćenje prostora zasniva se na sledećim načelima:
+
+1) održivog razvoja kroz integralni pristup u planiranju;
+
+2) ravnomernog teritorijalnog razvoja;
+
+3) racionalnog korišćenja zemljišta podsticanjem mera urbane i ruralne obnove i rekonstrukcije;
+
+4) racionalnog i održivog korišćenja neobnovljivih resursa i optimalnog korišćenja obnovljivih resursa;
+
+4a) unapređenja i podsticanja elektromobilnosti;
+
+4b) unapređenja, podsticanja i obezbeđivanja dostupnosti elektronskim komunikacionim mrežama novih generacija, koje omogućavaju pružanje širokopojasnih servisa velikih brzina;
+
+4v) zelene gradnje;
+
+5) zaštite i održivog korišćenja prirodnih dobara i nepokretnih kulturnih dobara;
+
+6) prevencije tehničko-tehnoloških nesreća, zaštite od požara i eksplozija, zaštite od prirodnih nepogoda, otklanjanja uzroka koji izazivaju klimatske promene;
+
+7) planiranja i uređenja prostora za potrebe odbrane zemlje;
+
+8) usaglašenosti sa evropskim propisima i standardima iz oblasti planiranja i uređenja prostora;
+
+9) unapređenja i korišćenje informacionih tehnologija koje doprinose boljoj efikasnosti i ekonomičnosti rada javne uprave na poslovima izgradnje;
+
+10) učešća javnosti;
+
+11) očuvanja običaja i tradicije;
+
+12) očuvanja ambijentalnih vrednosti, integriteta i specifičnosti predela;
+
+13) horizontalne i vertikalne koordinacije.
+
+Održivi razvoj iz stava 1. tačka 1) ovog člana predstavlja usklađivanje ekonomskih, socijalnih i ekoloških aspekata razvoja, racionalno korišćenje neobnovljivih i obezbeđenje uslova za veće korišćenje obnovljivih resursa, što sadašnjim i budućim generacijama omogućava zadovoljavanje njihovih potreba i poboljšanje kvaliteta života.
+
+Horizontalna koordinacija iz stava 1. tačka 13) ovog člana, podrazumeva povezivanje sa susednim teritorijama u toku planiranja radi rešavanja zajedničkih funkcija i interesa, kao i povezivanje i participaciju svih učesnika u prostornom razvoju javnog i civilnog sektora i građana.
+
+Vertikalna koordinacija iz stava 1. tačka 13) ovog člana podrazumeva uspostavljanje veza svih nivoa prostornog i urbanističkog planiranja i uređenja prostora, od nacionalnog ka regionalnom i dalje ka lokalnom nivou, kao i informisanje, saradnju i koordinaciju između lokalnih inicijativa, planova i projekata sa regionalnim i državnim planovima i akcijama.
+
+Zelena infrastruktura je strateški planirana mreža funkcionalno povezanih prirodnih i blisko-prirodnih elemenata, čije se projektovanje, podizanje, korišćenje i održavanje sprovodi na način kojim se obezbeđuju ekološke, ekonomske i društvene koristi kroz prirodna, biodiverzitetski zasnovana rešenja.
+
+U cilju smanjenja emisije gasova sa efektom staklene bašte, korišćenja ekološki sertifikovanih građevinskih materijala i opreme, smanjenja produkcije otpada, korišćenja obnovljivih izvora energije, za sve nove zgrade preko 10.000 m2 bruto razvijene građevinske površine, po izdavanju upotrebne dozvole, pribavlja se sertifikat zelene gradnje.
+
+Vlada na predlog ministarstva nadležnog za poslove građevinarstva donosi mere podsticaja zelene gradnje postojećeg nacionalnog fonda zgrada.
+
+Član 3a
+
+Tehničkom dokumentacijom se obezbeđuje da objekat u celini, odnosno u svakom posebnom delu bude pogodan za predviđenu upotrebu, kao i da u ekonomski prihvatljivom vremenu upotrebe objekat ispuni sledeće osnovne zahteve:
+
+1) mehaničke otpornosti i stabilnosti;
+
+2) bezbednosti u slučaju požara;
+
+3) higijene, zdravlja i životne sredine;
+
+4) bezbednosti i pristupačnosti prilikom upotrebe;
+
+5) zaštite od buke;
+
+6) uštede energije i obezbeđenja termičkog komfora i
+
+7) održivog korišćenja prirodnih resursa.
+
+Objekti moraju biti projektovani, građeni i održavani na način da korišćenje prirodnih resursa bude održivo, a naročito da:
+
+1) se omogućava ponovna upotreba ili reciklaža objekta, delova objekta ili građevinskog materijala nakon uklanjanja i
+
+2) koriste ekološki prihvatljive sirovine ili sekundarni materijali u objektima.
+
+4. Unapređenje energetske efikasnosti
+
+Energetska svojstva objekta
+
+Član 4
+
+Unapređenje energetske efikasnosti je smanjenje potrošnje svih vrsta energije, ušteda energije i obezbeđenje održive gradnje primenom tehničkih mera, standarda i uslova planiranja, projektovanja, izgradnje i upotrebe zgrada i prostora.
+
+Zgrada koja za svoje funkcionisanje podrazumeva utrošak energije, mora biti projektovana, izgrađena, korišćena i održavana na način kojim se obezbeđuju propisana energetska svojstva zgrada.
+
+Energetska svojstva zgrada jesu stvarno potrošena ili proračunata količina energije koja zadovoljava različite potrebe koje su u vezi sa standardizovanim korišćenjem, a odnose se naročito na energiju za grejanje, pripremu tople vode, hlađenje, ventilaciju i osvetljenje.
+
+Energetska svojstva utvrđuju se izdavanjem sertifikata o energetskim svojstvima zgrada koji izdaje ovlašćena organizacija koja ispunjava propisane uslove za izdavanje sertifikata o energetskim svojstvima objekata.
+
+Sertifikat o energetskim svojstvima zgrada izdaje se kroz Centralni registar energetskih pasoša (CREP), koji vodi ministarstvo nadležno za poslove građevinarstva.
+
+Sertifikat o energetskim svojstvima zgrada čini sastavni deo tehničke dokumentacije koja se prilaže uz zahtev za izdavanje upotrebne dozvole.
+
+Sertifikati o energetskim svojstvima zgrade važe deset godina od dana izdavanja.
+
+Sertifikat o energetskim svojstvima zgrade, odnosno njenog posebnog dela obavezno se prilaže prilikom overe ugovora o kupoprodaji nepokretnosti ili zaključenja ugovora o zakupu i čini njegov sastavni deo.
+
+Sertifikat o energetskim svojstvima zgrade koji je stariji od deset godina, ne može biti priložen prilikom overe ugovora o kupoprodaji nepokretnosti i zaključenja ugovora o zakupu.
+
+Nakon isteka roka važenja sertifikata o energetskim svojstvima zgrade za postojeću zgradu, odnosno poseban deo zgrade koji se prodaje ili daje u zakup, izrađuje se novi setrifikat o energetskim svojstvima kojim se utvrđuju energetska svojstva postojeće zgrade, bez obaveze povećanja energetskog razreda.
+
+Ako je predmet ugovora o kupoprodaji objekat ili deo objekta u izgradnji, sertifikat o energetskim svojstvima zgrade nije uslov za overu ugovora, već se isti prilaže po izdavanju upotrebne dozvole i upisu nepokretnosti ili dela nepokretnosti u evidenciju katastra nepokretnosti.
+
+Ispunjenost uslova iz stava 4. ovog člana posebnim rešenjem utvrđuje ministar nadležan za poslove građevinarstva.
+
+Na rešenje iz stava 12. ovog člana ne može se izjaviti žalba ali se tužbom može pokrenuti upravni spor.
+
+Obaveza iz stava 2. ovog člana ne odnosi se na zgrade koje posebnim propisom odredi ministar nadležan za poslove građevinarstva.
+
+Vlada, na predlog ministarstva nadležnog za poslove građevinarstva, donosi Dugoročnu strategiju za podsticanje ulaganja u obnovu nacionalnog fonda zgrada, kao i Nacionalnu metodologiju proračuna energetskih karakteristika zgrada.
+
+5. Nesmetano kretanje i pristup osobama sa invaliditetom, deci i starim osobama
+
+Član 5
+
+Zgrade javne i poslovne namene, kao i drugi objekti za javnu upotrebu (ulice, trgovi, parkovi i sl.), moraju se projektovati, graditi i održavati tako da svim korisnicima, a naročito osobama sa invaliditetom, deci i starim osobama, omogućavaju nesmetan pristup, kretanje i boravak, odnosno korišćenje u skladu sa odgovarajućim tehničkim propisima čiji su sastavni deo standardi koji definišu obavezne tehničke mere i uslove projektovanja, planiranja i izgradnje, kojima se osigurava nesmetano kretanje i pristup osobama sa invaliditetom, deci i starim osobama.
+
+Stambene i stambeno-poslovne zgrade sa deset i više stanova moraju se projektovati i graditi tako da se svim korisnicima, a naročito osobama sa invaliditetom, deci i starim osobama omogućava nesmetan pristup, kretanje, boravak i rad.
+
+Član 6
+
+(Brisano)
+
+Član 7
+
+(Brisano)
+
+8. Objedinjena procedura u postupcima za izdavanje akata u ostvarivanju prava na izgradnju i korišćenje objekata
+
+Član 8
+
+Ministarstvo nadležno za poslove građevinarstva, nadležni organ autonomne pokrajine, odnosno nadležni organ jedinice lokalne samouprave (u daljem tekstu: nadležni organ), dužni su da odrede posebnu organizacionu celinu u svom sastavu, koja sprovodi objedinjenu proceduru za: izdavanje lokacijskih uslova; izdavanje građevinske dozvole; prijavu radova; izdavanje upotrebne dozvole; za pribavljanje uslova za projektovanje, odnosno priključenje objekata na infrastrukturnu mrežu; za pribavljanje isprava i drugih dokumenata koje izdaju imaoci javnih ovlašćenja, a uslov su za izgradnju objekata, odnosno za izdavanje lokacijskih uslova, građevinske dozvole i upotrebne dozvole iz njihove nadležnosti, kao i obezbeđenje uslova za priključenje na infrastrukturnu mrežu i za upis prava svojine na izgrađenom objektu i za utvrđivanje kućnog broja (u daljem tekstu: objedinjena procedura).
+
+Nadležni organ sprovodi objedinjenu proceduru i u slučajevima izdavanja rešenja iz člana 145. ovog zakona.
+
+U okviru objedinjene procedure sprovodi se i izmena lokacijskih uslova, odnosno rešenja o građevinskoj dozvoli.
+
+Rukovodilac nadležne službe je odgovoran za efikasno sprovođenje objedinjene procedure.
+
+Ministar nadležan za poslove građevinarstva bliže propisuje način postupak sprovođenja objedinjene procedure.
+
+9. Razmena dokumenata i podnesaka u objedinjenoj proceduri i njihova forma
+
+Član 8a
+
+Razmena dokumenata i podnesaka u objedinjenoj proceduri obavlja se elektronskim putem osim za dokumente i podneske koji sadrže tajne podatke i koji su označeni stepenom tajnosti u skladu sa propisima kojima se uređuje tajnost podataka.
+
+Sva akta koja u vezi sa objedinjenom procedurom donose nadležni organi i imaoci javnih ovlašćenja, kao i podnesci i dokumenti koji se dostavljaju u objedinjenoj proceduri, uključujući i tehničku dokumentaciju, dostavljaju se u formi elektronskog dokumenta.
+
+Ako se u objedinjenoj proceduri dostavlja akt, odnosno dokument koji je prethodno izvorno sačinjen u papirnoj formi, dostavlja se primerak tog akta, odnosno dokumenta koji je digitalizovan i overen u skladu sa zakonom kojim se uređuje elektronsko poslovanje.
+
+Digitalizaciju dokumenta u skladu sa stavom 3. ovog člana za potrebe sprovođenja objedinjene procedure, pored lica utvrđenih zakonom koji uređuje elektronsko poslovanje, može izvršiti i lice sa licencom odgovornog projektanta, upisano u odgovarajući strukovni registar ili advokat upisan u imenik advokata, ako to lice svojim kvalifikovanim elektronskim potpisom istovremeno potpisuje i podnesak u objedinjenoj proceduri uz koji se taj akt, odnosno dokument dostavlja.
+
+Provera da li je podnesak iz stava 4. ovog člana potpisan i validovan elektronskim potpisom, kao i podnesaka i dokumenata koji se dostavljaju u objedinjenoj proceduri, uključujući i tehničku dokumentaciju, vrši se automatski prilikom podnošenja zahteva, razmene dokumenata i podnesaka kroz centralnu evidenciju objedinjene procedure.
+
+Izuzetno od stava 2. ovog člana, lice registrovano za korišćenje usluga elektronske uprave podnesak može podneti i preko portala e-Uprava, u skladu sa zakonom kojim se uređuje elektronska uprava, u kom slučaju se identifikacija podnosioca vrši u skladu sa tim zakonom.
+
+Izuzetno od st. 2. i 3. ovog člana, treće lice koje traži da mu se u objedinjenoj proceduri prizna svojstvo stranke u postupku, odnosno ako na odluke donete u tom postupku izjavljuje pravne lekove, nije dužno da koristi elektronske dokumente, niti da se nadležnom organu obraća elektronskim putem.
+
+Ako nadležni organ u slučaju iz stava 6. ovog člana primi podnesak i dokument u papirnoj formi, dužan je da isti digitalizuje i da potvrdi istovetnost te kopije originalu, čime kopija dobija istu dokaznu snagu kao original u okviru sprovođenja tog postupka.
+
+Ministar nadležan za poslove građevinarstva bliže uređuje način razmene dokumenata i podnesaka iz stava 1. ovog člana i formu u kojoj se dostavljaju tehnička dokumentacija i akta iz stava 2. ovog člana.
+
+10. Postupanje imaoca javnih ovlašćenja u objedinjenoj proceduri
+
+Član 8b
+
+Nadležni organ je dužan da u roku od pet radnih dana od dana prijema zahteva za izdavanje lokacijskih uslova, imaocima javnih ovlašćenja, koji u skladu sa ovim zakonom i posebnim propisom utvrđuju uslove za projektovanje, odnosno priključenje, dostavi zahtev za izdavanjem tih uslova, ako se oni ne mogu pribaviti uvidom u planski dokument, odnosno separat.
+
+Imalac javnih ovlašćenja je dužan da postupi po zahtevu iz stava 1. ovog člana, u roku od 15 dana od dana prijema zahteva, a za objekte iz člana 133. ovog zakona u roku od 30 dana od dana prijema zahteva, izuzev u slučaju kada imalac javnih ovlašćenja utvrdi da je nenadležan, kada ima rok od tri dana da obavesti nadležni organ.
+
+Ako je prethodni uslov za izgradnju objekta izgradnja nedostajuće infrastrukture, imalac javnih ovlašćenja je dužan da u uslovima za projektovanje, odnosno priključenje navede tu činjenicu i informaciju o planiranom načinu finansiranja i rokovima izgradnje nedostajuće infrastrukture.
+
+Uslovi za projektovanje, odnosno priključenje ne mogu biti u suprotnosti sa planskim dokumentom na osnovu koga se izdaju lokacijski uslovi, niti se njima mogu menjati planskim dokumentom utvrđeni urbanistički parametri, odnosno osporavati planskim dokumentom utvrđene namene.
+
+Ako imalac javnih ovlašćenja ne može da postupi po zahtevu zbog nedostataka u sadržini idejnog rešenja, dužan je da navede sve nedostatke koje je potrebno ispraviti kako bi izdao akt o uslovima za projektovanje, odnosno priključenje u skladu sa zahtevom.
+
+Ako imalac javnih ovlašćenja ne postupi u roku i na način iz st. 2, 3. i 4. ovog člana nadležni organ o tome obaveštava podnosioca zahteva i podnosi zahtev za pokretanje prekršajnog postupka u skladu sa članom 211a ovog zakona.
+
+Imalac javnih ovlašćenja ima pravo na naknadu stvarnih troškova za izdavanje traženih uslova za projektovanje, odnosno priključenje, kao i sprovođenje drugih radnji iz svoje nadležnosti.
+
+Uslovi za projektovanje, odnosno priključenje imalaca javnih ovlašćenja sadrže i iznos naknade za priključenje na infrastrukturnu mrežu, kao i iznos drugih naknada, odnosno taksi, u skladu sa posebnim zakonom.
+
+Ako imalac javnih ovlašćenja obaveštenje o visini naknade iz stava 7. ovog člana dostavi u roku od tri radna dana od dana prijema zahteva za izdavanje uslova za projektovanje, odnosno priključenje, obaveza plaćanja naknade dospeva pre izdavanja lokacijskih uslova, a u suprotnom smatra se da se imalac javnih ovlašćenja izjasnio da će te uslove izdati bez naknade, o čemu nadležni organ obaveštava podnosioca zahteva bez odlaganja.
+
+Obaveza plaćanja naknade iz stava 8. ovog člana, dospeva pre priključenja na mrežu, a naknade koje nisu u vezi sa priključenjem na infrastrukturnu mrežu, odnosno takse, pre izdavanja upotrebne dozvole.
+
+Izuzetno od stava 10. ovog člana, obaveza plaćanja naknade iz stava 8. ovog člana dospeva po prijemu konačnog obračuna te naknade, ako se investitor u zahtevu za priključenje objekta na infrastrukturnu mrežu, odnosno u zahtevu za izdavanje upotrebne dozvole, izjasnio da će tu naknadu platiti nakon prijema konačnog obračuna.
+
+U slučaju da je objekat izveden u skladu sa uslovima za priključenje, imalac javnih ovlašćenja dužan je da izvrši priključenje objekta na komunalnu i drugu infrastrukturu i da o tome obavesti nadležni organ u roku od 15 dana od dana prijema zahteva za priključenje, ako lokacijskim uslovima nije predviđeno drugačije.
+
+Odredbe st. 6-10. ovog člana ne primenjuju se za priključenje objekta na prenosnu elektroenergetsku mrežu (iznad 110 kV).
+
+11. Registar objedinjenih procedura
+
+Član 8v
+
+Nadležni organ je dužan da objedinjenu proceduru sprovodi tako što vodi elektronsku, javno dostupnu bazu podataka o toku svakog pojedinačnog predmeta, od podnošenja zahteva za izdavanje lokacijskih uslova, do izdavanja upotrebne dozvole, koja sadrži i akta pribavljena i izdata u toj proceduri (u daljem tekstu: registar objedinjenih procedura).
+
+U nadležnom organu određuje se lice koje vodi registar objedinjenih procedura (u daljem tekstu: registrator).
+
+Registrator je dužan da obezbedi objavljivanje lokacijskih uslova, građevinske i upotrebne dozvole u elektronskom obliku putem interneta, u roku od tri radna dana od dana njihovog izdavanja.
+
+Registrator je odgovoran za zakonito, sistematično i ažurno vođenje registra objedinjenih procedura, u skladu sa ovim zakonom.
+
+Registrator je dužan da podnese prekršajnu prijavu iz člana 211a ovog zakona, protiv imaoca javnih ovlašćenja i odgovornog lica imaoca javnih ovlašćenja, ako tokom sprovođenja objedinjene procedure taj imalac javnih ovlašćenja ne postupa na način i u rokovima propisanim ovim zakonom, najkasnije u roku od tri radna dana od isteka propisanog roka za postupanje od strane imaoca javnih ovlašćenja.
+
+Rukovodilac nadležne službe ima prava i odgovornosti koja su ovim zakonom propisana za registratora, ako se u nadležnom organu ne odredi registrator u skladu sa stavom 2. ovog člana.
+
+Ministar nadležan za poslove građevinarstva propisuje vođenje i sadržinu registra objedinjenih procedura, obaveze i ovlašćenja registratora i obim javne dostupnosti podataka i dokumenata sadržanih u registru.
+
+12. Centralna evidencija objedinjenih procedura
+
+Član 8g
+
+Agencija za privredne registre vodi jedinstvenu, centralnu, javnu, elektronsku bazu podataka, u kojoj su objedinjeni podaci iz svih registara objedinjenih procedura na teritoriji Republike Srbije, kao i akta sadržana u tim registrima (u daljem tekstu: centralna evidencija), preko registratora centralne evidencije i obezbeđuje dostupnost tih podataka i akata u skladu sa zakonom, kao i pristup aktima koje nadležni organi objavljuju u skladu sa članom 8v stav 3. ovog zakona.
+
+Registrator centralne evidencije formira centralnu evidenciju preuzimanjem podataka i elektronskih dokumenata iz registara objedinjenih procedura iz člana 8v ovog zakona i stara se o javnoj dostupnosti te evidencije.
+
+Ministar nadležan za poslove građevinarstva bliže uređuje način vođenja elektronske evidencije iz stava 1. ovog člana.
+
+Registratora centralne evidencije imenuje upravni odbor Agencije, uz prethodnu saglasnost Vlade.
+
+Registrator centralne evidencije je dužan da Vladi dostavlja izveštaje o sprovođenju objedinjene procedure na godišnjem nivou.
+
+Registrator centralne evidencije je dužan da Vladi i ministarstvu nadležnom za poslove građevinarstva dostavlja i druge izveštaje i analize u vezi sa sprovođenjem objedinjene procedure, u skladu sa njihovim zahtevom.
+
+Registrator centralne evidencije dužan je da bez odlaganja podnese prekršajnu prijavu:
+
+1) protiv odgovornog lica u nadležnom organu, zbog prekršaja iz člana 209. stav 1. tačka 2) ovog zakona;
+
+2) protiv registratora, zbog prekršaja iz člana 211b ovog zakona, ako ne podnese prijavu u skladu sa članom 8v stav 5. ovog zakona.
+
+13. Sprovođenje objedinjene procedure
+
+Član 8d
+
+Nadležni organ:
+
+1) po zahtevu za izdavanje lokacijskih uslova, te uslove izdaje najkasnije u roku od pet radnih dana od pribavljanja svih uslova, isprava i drugih dokumenata u skladu sa članom 8b ovog zakona;
+
+2) po zahtevu za izdavanje građevinske dozvole, dozvolu izdaje najkasnije u roku od pet radnih dana od dana podnošenja zahteva za izdavanje građevinske dozvole;
+
+3) po prijavi radova, potvrđuje prijem bez odlaganja, osim ako se uz prijavu radova podnosi sredstvo obezbeđenja iz člana 98. ovog zakona, u kom slučaju nakon provere valjanosti sredstva obezbeđenja prijavu radova potvrđuje, odnosno odbacuje rešenjem, u roku od pet radnih dana;
+
+3a) po prijavi završetka izgradnje temelja, potvrđuje njen prijem bez odlaganja, osim ako uz prijavu nije podneta propisana dokumentacija, u kom slučaju o tome bez odlaganja, a najkasnije narednog radnog dana, od prijema zahteva, obaveštava podnosioca zahteva;
+
+3b) po prijavi završetka izgradnje objekta u konstruktivnom smislu, potvrđuje njen prijem bez odlaganja, osim ako uz prijavu nije podneta propisana dokumentacija, u kom slučaju o tome bez odlaganja, a najkasnije narednog radnog dana, od prijema zahteva, obaveštava podnosioca zahteva;
+
+3v) po zahtevu za davanje saglasnosti na tehničku dokumentaciju u pogledu mere zaštite od požara, upućuje taj zahtev organu nadležnom za zaštitu od požara bez odlaganja, a najkasnije narednog radnog dana, od dana prijema zahteva i u istom roku odluku nadležnog organa za zaštitu od požara dostavlja investitoru;
+
+4) po zahtevu za priključenje objekta na infrastrukturu, upućuje taj zahtev imaocu javnih ovlašćenja u roku od tri radna dana od dana podnošenja zahteva;
+
+5) po zahtevu za izdavanje upotrebne dozvole, dozvolu izdaje najkasnije u roku od pet radnih dana od dana podnošenja zahteva za izdavanje upotrebne dozvole;
+
+6) po zahtevu za izdavanje rešenja iz člana 145. ovog zakona rešenje izdaje najkasnije u roku od pet radnih dana od dana podnošenja zahteva.
+
+Formu i sadržinu zahteva i prijave iz stava 1. ovog člana, kao i dokumentacije koja se podnosi uz zahteve i prijavu, propisuje ministar nadležan za poslove građevinarstva.
+
+U okviru rokova propisanih u stavu 1. ovog člana, nadležni organ je dužan da po službenoj dužnosti, u ime i za račun podnosioca zahteva, pribavlja sve akte, uslove i druga dokumenta, koje izdaju imaoci javnih ovlašćenja, a uslov su za sprovođenje objedinjene procedure.
+
+Rešenje o izdatoj građevinskoj dozvoli, prijavu radova, prijavu temelja i prijavu završetka objekta u konstruktivnom smislu nadležni organ dostavlja građevinskoj inspekciji bez odlaganja, a lokacijske uslove prosleđuje imaocima javnih ovlašćenja radi informisanja i rezervacije kapaciteta infrastrukture na koju objekat nakon izgradnje treba da se priključi, u roku od tri dana od dana izdavanja.
+
+Ako je ovim zakonom propisano da se u posebnim slučajevima građenja, odnosno izvođenja radova, ne sprovodi određena faza objedinjene procedure ili je ta faza pojednostavljena, za sprovođenje pojednostavljene i preostalih faza objedinjene procedure važe rokovi propisani u stavu 1. ovog člana, ako drugačije nije propisano zakonom.
+
+Izuzetno od stava 1. tačka 5) ovog člana, u slučaju neusklađenosti tehničke dokumentacije koja se dostavlja radi izdavanja upotrebne dozvole sa elaboratom geodetskih radova za izvedeni objekat i posebne delove objekta, odnosno ako je ta neusklađenost razlog za izmenu upotrebne dozvole u cilju upisa objekta u katastar, rok za izdavanje upotrebne dozvole se računa od dana dostavljanja tehničke dokumentacije koja je usklađena sa elaboratom geodetskih radova.
+
+14. Granice ovlašćenja nadležnog organa
+
+Član 8đ
+
+Tokom sprovođenja objedinjene procedure, nadležni organ isključivo vrši proveru ispunjenosti formalnih uslova za izgradnju i ne upušta se u ocenu tehničke dokumentacije, niti ispituje verodostojnost dokumenata koje pribavlja u toj proceduri, već lokacijske uslove, građevinsku i upotrebnu dozvolu izdaje, a prijavu radova potvrđuje, u skladu sa aktima i drugim dokumentima iz člana 8b ovog zakona.
+
+Nadležni organ u skladu sa stavom 1. ovog člana proverava isključivo ispunjenost sledećih formalnih uslova:
+
+1) nadležnost za postupanje po zahtevu, odnosno prijavi;
+
+2) da li je podnosilac zahteva, odnosno prijave lice koje, u skladu sa ovim zakonom, može biti podnosilac zahteva odnosno prijave;
+
+3) da li zahtev, odnosno prijava sadrži sve propisane podatke;
+
+4) da li je uz zahtev, odnosno prijavu priložena sva dokumentacija propisana ovim zakonom i podzakonskim aktima donetim na osnovu ovog zakona;
+
+5) da li je uz zahtev priložen dokaz o uplati propisane naknade, odnosno takse.
+
+6) (brisana)
+
+Podatke iz službenih evidencija, koji su neophodni za sprovođenje objedinjene procedure, nadležni organ obezbeđuje preko servisne magistrale organa u skladu sa propisima koji uređuju elektronsku upravu, bez plaćanja takse.
+
+Podaci pribavljeni na način iz stava 3. ovog člana smatraju se pouzdanim i imaju istu dokaznu snagu kao overeni izvodi iz tih evidencija.
+
+Po zahtevu za izdavanje, odnosno izmenu građevinske dozvole i upotrebne dozvole, odnosno rešenja iz člana 145. ovog zakona nadležni organ u rokovima iz člana 8d stav 1. ovog zakona donosi rešenje.
+
+Ako odbaci zahtev iz razloga što nisu ispunjeni formalni uslovi za dalje postupanje po zahtevu, nadležni organ je dužan da taksativno navede sve nedostatke, odnosno razloge za odbacivanje, nakon čijeg će otklanjanja moći da postupi u skladu sa zahtevom.
+
+Ako podnosilac zahteva otkloni utvrđene nedostatke i podnese usaglašeni zahtev najkasnije u roku od 30 dana od dana objavljivanja akta iz stava 6. ovog člana, ne dostavlja ponovo dokumentaciju, niti plaća administrativnu taksu i druge naknade koje je već dostavio, odnosno platio u postupku u kome je taj akt donet.
+
+Ako odbaci zahtev za izdavanje lokacijskih uslova zbog nedostataka idejnog rešenja, nadležni organ u postupku po usaglašenom zahtevu neće ponovno pribavljati uslove imalaca javnih ovlašćenja koji su pribavljeni u postupku u kome je zahtev odbačen, niti imaoci javnih ovlašćenja mogu ponovo naplatiti naknadu za izdavanje tih uslova osim ako su u izmenjenom idejnom rešenju promenjeni elementi bitni za utvrđivanje tih uslova.
+
+U slučaju štete nastale kao posledica primene tehničke dokumentacije, na osnovu koje je izdata građevinska dozvola ili rešenje iz člana 145. ovog zakona, za koju se naknadno utvrdi da nije u skladu sa propisima i pravilima struke, za štetu solidarno odgovaraju projektant koji je izradio i potpisao tehničku dokumentaciju, vršilac tehničke kontrole i investitor.
+
+Ministar nadležan za poslove građevinarstva bliže utvrđuje sadržaj izvoda iz projekta.
+
+Član 9
+
+(Brisano)
+
+II PROSTORNO I URBANISTIČKO PLANIRANJE
+1. Dokumenti prostornog i urbanističkog planiranja
+
+Član 10
+
+Dokumenti prostornog i urbanističkog planiranja su:
+
+1) planski dokumenti;
+
+2) dokumenti za sprovođenje prostornih planova;
+
+3) urbanističko-tehnički dokumenti;
+
+4) Strategija održivog urbanog razvoja Republike Srbije;
+
+5) Nacionalna arhitektonska strategija.
+
+Dokumenti prostornog i urbanističkog planiranja sadrže mere uređenja i pripreme teritorije za potrebe odbrane zemlje, kao i podatke o područjima i zonama objekata od posebnog značaja i interesa za odbranu zemlje.
+
+Poseban prilog koji se odnosi na posebne mere uređenja i pripreme teritorije za potrebe odbrane zemlje je sastavni deo plana, ukoliko ministarstvo nadležno za poslove odbrane ne odluči drugačije.
