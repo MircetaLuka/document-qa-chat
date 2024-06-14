@@ -6,6 +6,9 @@ os.environ["GOOGLE_API_KEY"] = API_KEY
 from langchain_google_vertexai import ChatVertexAI
 
 llm = ChatVertexAI(model="gemini-pro")
+from langchain.chains import create_retrieval_chain
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain_core.prompts import ChatPromptTemplate
 #import bs4
 from langchain.chains import LLMChain
 from langchain import hub
@@ -44,13 +47,42 @@ def rag_chat(question):
     vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings)
 
     # Retrieve and generate using the relevant snippets of the blog.
-    retriever = vectorstore.as_retriever()
-    #TODO Prompt fixen
-    prompt = PromptTemplate(input_variables=['context', 'question'], template="Vi ste asistent za zadatke odgovaranja na pitanja. Koristite sledeće delove dobijenog konteksta da odgovorite na pitanje. Ako ne znate odgovor, samo recite da ne znate. Koristite najviše tri rečenice i neka odgovor bude sažet. Sve odgovore koje generišete, generišite molim Vas na srpskom jeziku.\nquestion: {question} \ncontext: {context} \nAnswer:")
+    retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 6})
 
-    rag_chain = LLMChain(llm = llm, prompt = prompt)
+    context = format_docs(retriever.invoke(question))
+    
+    system_prompt = (
+    "Vi ste asistent za zadatke odgovaranja na pitanja."
+    "Koristite sledeće delove dobijenog konteksta da odgovorite na pitanje."
+    "Ako ne znate odgovor, samo recite da ne znate."
+    "Koristite najviše tri rečenice i neka odgovor bude sažet. "
+    "Sve odgovore koje generišete, generišite molim Vas na srpskom jeziku."
+    "\n\n"
+    "{context}"
+)
+
+    prompt = ChatPromptTemplate.from_messages(
+        [
+            ("system", system_prompt),
+            ("human", "{question}"),
+        ]
+    )
 
 
-    return rag_chain.run(context = retriever, question = question)
+    chain = (
+    {"context": retriever | format_docs, "question": RunnablePassthrough()}
+    | prompt
+    | llm
+    | StrOutputParser()
+    )
+    response = chain.invoke(question)
+    print(response)
+    output = ""
+    for chunk in chain.stream(question):
+        output += chunk
+    return output
+    #print(retriever.invoke(question))
+
+#    return rag_chain.invoke(question)
 
 

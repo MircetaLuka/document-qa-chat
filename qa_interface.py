@@ -1,6 +1,6 @@
 import streamlit as st
 from rag_chat import rag_chat
-st.title("Bauordnung GPT")
+st.title("Pravnik GPT")
 
 # Initialize chat history
 if "messages" not in st.session_state:
