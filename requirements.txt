@@ -1,9 +1,9 @@
 langchain
-langchain-google-vertexaipython
+langchain-google-vertexai
 langchainhub
 langchain-google-genai
 langchain-community
 langchain-chroma
-beautifulsoup4
 markdown
 streamlit
+unstructured

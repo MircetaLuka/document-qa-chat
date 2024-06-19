@@ -1,7 +1,7 @@
 import getpass
 import os
-from constants import API_KEY
-os.environ["GOOGLE_API_KEY"] = API_KEY
+#from constants import API_KEY
+#os.environ["GOOGLE_API_KEY"] = API_KEY
 
 from langchain_google_vertexai import ChatVertexAI
 
@@ -26,7 +26,7 @@ def format_docs(docs):
     return "\n\n".join(doc.page_content for doc in docs)
 
 def rag_chat(question):
-    # In this project we are goint to implement a QA App over Mardown data
+    # In this project we are going to implement a QA App over Mardown data
     # We will use pandoc to convert txt files to Markdown and the proceed with processing the data.
     markdown_path = "./data.md"
 
