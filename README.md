@@ -143,9 +143,6 @@ The output received from our LLM is passed using the _StrOutputParser()_ and the
 ```
 
 
-## Creating a Chat Interface using Streamlit
-
-
 
 
 
