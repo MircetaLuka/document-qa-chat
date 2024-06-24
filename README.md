@@ -18,7 +18,7 @@ By dividing the RAG Application into these two components, we can efficiently ma
 
 We can split the Workflow of our RAG Pipeline into 5 steps.
 ### Indexing 
-1. **Load**: We are first going to load out data into a suitable format for indexing using a _DocumentLoader_ 
+1. **Load**: We are first going to load our data into a suitable format for indexing using a _DocumentLoader_ 
 
 2. **Split**: We will divide the loaded data into smaller chunks to facilitate searching in the Vector space where it will be embedded. In this project we are going to use the _RecursiveTextCharacterSplitter_
 
